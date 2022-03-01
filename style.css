@@ -826,6 +826,13 @@ h4 {
 }
 
 @media (max-width: 1024px) {
+    .bg-banniere{
+        background-image: url("img/agence-la-panthereMoyen.jpg");
+    }
+    .bg-presentation {
+        background-image: url("img/image-de-presentationMoyen.jpg");
+    }
+    
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -840,6 +847,7 @@ h4 {
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
+
     .navbar .nav {
         max-width: 80%
     }
@@ -890,6 +898,13 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .bg-banniere{
+        background-image: url("img/agence-la-pantherePetit.jpg");
+    }
+    .bg-presentation {
+        background-image: url("img/image-de-presentationPetit.jpg");
+    }
+    
     .page-container {
         overflow-x: hidden;
         position: relative;
