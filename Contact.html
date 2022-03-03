@@ -82,7 +82,9 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Votre message a été envoyé."
+						<!-- Cette partie pose un probleme de validation html "success-msg et fail-msg" ne sont pas des attributs valide?
+							Pourtant ils sont bien affichés lors de la validation du formulaire ???-->
+						<form name="formulaire de contact" id="form_1" novalidate success-msg="Votre message a été envoyé."
 							fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, Désolé pour le dérangement !">
 							<div class="form-group">
 								<label>
